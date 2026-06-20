@@ -12,4 +12,8 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "./src/server.ts" },
   },
+  // Outside the Lovable sandbox, nitro (the Cloudflare build plugin) is OFF by default —
+  // self-deploys get a Vite-only build with no Worker output. Force it on so `npm run build`
+  // produces a Cloudflare Workers-ready build in .output/ (server + static assets + wrangler.json).
+  nitro: true,
 });

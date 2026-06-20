@@ -1,5 +1,5 @@
 {
-  "name": "tanstack_start_ts",
+  "name": "ashley-brooke",
   "private": true,
   "sideEffects": false,
   "type": "module",
@@ -12,6 +12,8 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "@fontsource/inter": "^5.2.8",
+    "@fontsource/playfair-display": "^5.2.8",
     "@hookform/resolvers": "^5.2.2",
     "@lovable.dev/cloud-auth-js": "^1.1.2",
     "@radix-ui/react-accordion": "^1.2.12",
